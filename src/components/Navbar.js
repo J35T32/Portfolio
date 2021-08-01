@@ -24,14 +24,14 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Services</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#">How I Work</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link" href="#">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacts</a>
+                            <a className="nav-link" href="#">Contact</a>
                         </li>
                         
                     </ul>

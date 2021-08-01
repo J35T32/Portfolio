@@ -7,6 +7,7 @@ body {
 .logo {
   width: 10.5rem;
   height: 6.0rem;
+  border-radius: 50px;
 }
 
 nav a.nav-link {
@@ -21,7 +22,7 @@ nav ul li {
 
 .navbar-nav > li > a {
   margin: 0rem .75rem 0rem .75rem;
-  color: white !important;
+  color: rgb(116, 163, 44) !important;
   border-top: 0.1875rem rgba(255, 255, 255, 0);
 }
 
@@ -32,11 +33,44 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid olivedrab;
+  border-top: 0.1875rem solid white;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid olivedrab;
+  border-top: 0.1875rem solid white;
+}
+
+.header-wrapper {
+  position: relative;
+  background: url(./images/laptop_mercury.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  /* display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 40rem; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-info h1 {
+  color: rgb(116, 163, 44);
+  font-weight: bold
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: rgb(186, 121, 121);
+  font-weight: bold
 }
 
 /* 
