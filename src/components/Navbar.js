@@ -1,5 +1,4 @@
 import React from 'react'
-import bullseye3 from '../images/bullseye3.png';
 import mern from '../images/mern.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
             <div className="container">
             <a className="navbar-brand" href="#"><img src={mern} alt="logo" className="logo" /> </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

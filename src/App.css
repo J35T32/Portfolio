@@ -10,6 +10,10 @@ body {
   border-radius: 50px;
 }
 
+nav {
+  z-index: 2;
+}
+
 nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
@@ -49,17 +53,18 @@ nav ul li {
 }
 
 .main-info {
-  /* display: flex;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 40rem; */
+  bottom: 10rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -70,7 +75,30 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: rgb(186, 121, 121);
-  font-weight: bold
+  font-weight: bold;  
+}
+
+.btn-main-contact {
+  border: 1px solid rgb(116, 163, 44);
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: .625rem .75rem .75rem .75rem;
+  color: white;
+  margin: 1rem;
+}
+
+.btn-main-contact:hover {
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+  transition: .1s ease-in-out;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
 
 /* 

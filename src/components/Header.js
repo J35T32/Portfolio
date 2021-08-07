@@ -7,12 +7,13 @@ const Header = () => {
             <div className="main-info">
                 <h1>Web Development / Mobile App Development</h1>
                 <Typed
-                className="typed-text"
-                strings={["Front End", "Back End", "Full Stack", "Mobile"]}
-                typeSpeed={60}
-                backSpeed={70}
-                loop
+                    className="typed-text"
+                    strings={["Front End", "Back End", "Full Stack", "Mobile"]}
+                    typeSpeed={60}
+                    backSpeed={70}
+                    loop
                 />
+                <a href="#" className="btn-main-contact">Contact Me</a>
 
             </div>
             
