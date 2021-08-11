@@ -11,32 +11,73 @@ function App() {
     <>
       <Particles
         params={{
-          particles: {
-            number: {
-              value: 40,
-              density: {
-                enable: true,
-                value_area: 900,
+          "particles": {
+            "number": {
+              "value": 120,
+              "density": {
+                "enable": false,
+                "value_area": 900,
               },
             },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 8,
-                color: {
-                  value: {r: 116, g:163, b:44},
+            "size": {
+              "value": 1 
+            },
+            "line_linked": {
+              "enable": false,
+              "opacity": .075,
+              // "distance": 200 
+            },
+            "shape": {
+              "type": "circle",
+              "image": {
+                "src": "/images/bullseye3.png"
+              },
+              "stroke": {
+                "width": 4,
+                "color": {
+                  "value": {r: 116, g:163, b:44},
                 }
               }
             },
-            move: {
-              speed: 4,
-              random: true,
-              bounce: true,
-              attract: {
-                enable: true,
+            "move": {
+              "enable": true,
+              "direction": "none",
+              "outMode": "bounce",
+              "speed": 1,
+              "random": true,
+              "bounce": false,
+              "attract": {
+                "enable": false,
               }
-            }
-          }
+            },       
+          },
+          "interactivity": {
+            "detect_on": "window",
+            "events": {
+              "onHover": {
+                "enable": true,
+                "mode": "bubble"
+              },
+              "onClick": {
+                "enable": true,
+                "mode": "push"
+              },
+            },
+            "modes": {
+              "repulse": {
+                "distance": 200
+              },
+              "grab": {
+                "line_linked": {
+                  "distance": 1000
+                },
+              },  
+              "bubble": {
+                "size": 8,
+                "opacity": .4                 
+              },
+            }, 
+          },
         }}
       />
       <Navbar />
