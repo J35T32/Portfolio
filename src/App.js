@@ -13,19 +13,27 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 120,
+              "value": 180,
               "density": {
                 "enable": false,
                 "value_area": 900,
               },
             },
+            "color": {
+              "value": "#BA7979",
+            },
+            // "opacity": {
+            //   "value": .5,
+            //   "random": true
+            // },
             "size": {
-              "value": 1 
+              "value": 8,
+              "random": true,
             },
             "line_linked": {
-              "enable": false,
-              "opacity": .075,
-              // "distance": 200 
+              "enable": true,
+              "opacity": .1,
+              "distance": 30 
             },
             "shape": {
               "type": "circle",
@@ -33,9 +41,9 @@ function App() {
                 "src": "/images/bullseye3.png"
               },
               "stroke": {
-                "width": 4,
+                "width": 1.5,
                 "color": {
-                  "value": {r: 116, g:163, b:44},
+                  "value": {r: 148, g:196, b:75}, 
                 }
               }
             },
@@ -60,12 +68,12 @@ function App() {
               },
               "onClick": {
                 "enable": true,
-                "mode": "push"
+                "mode": "repulse"
               },
             },
             "modes": {
               "repulse": {
-                "distance": 200
+                "distance": 240
               },
               "grab": {
                 "line_linked": {
@@ -73,8 +81,9 @@ function App() {
                 },
               },  
               "bubble": {
-                "size": 8,
-                "opacity": .4                 
+                "size": 20,
+                "opacity": .4,
+                // "duration": 1
               },
             }, 
           },

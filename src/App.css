@@ -26,7 +26,7 @@ nav ul li {
 
 .navbar-nav > li > a {
   margin: 0rem .75rem 0rem .75rem;
-  color: rgb(116, 163, 44) !important;
+  color: rgb(148, 196, 75) !important;
   border-top: 0.1875rem rgba(255, 255, 255, 0);
 }
 
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid white;
+  border-top: 0.1875rem solid gray;
 }
 
 .navbar-nav > li > a:hover {
@@ -68,8 +68,8 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: rgb(116, 163, 44);
-  font-weight: bold
+  color: rgb(148, 196, 75) ;
+  font-weight: bold;
 }
 
 .typed-text {
@@ -79,7 +79,7 @@ nav ul li {
 }
 
 .btn-main-contact {
-  border: 1px solid rgb(116, 163, 44);
+  border: 1px solid rgb(148, 196, 75) ;
   border-radius: 2px;
   text-transform: uppercase;
   padding: .625rem .75rem .75rem .75rem;
